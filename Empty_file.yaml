@@ -1,4 +1,16 @@
+# This is an example Quickstarter pipeline yaml configuration
+# Demonstrates multiple stages & parallel jobs execution
+SathishkumarSathishk
+version: 1.0
 
+stages:
+  stage1:
+    jobs:
+    - [test1]
+  stage2:
+    jobs:
+    - [test2, test3]
+    - [test4]
 
 
 
