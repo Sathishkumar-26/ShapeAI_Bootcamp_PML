@@ -19,6 +19,22 @@ stages:
     - [test2, test3]
     - [test4]stages:
   stage1:
+stages:
+  stage1:
+    jobs:
+    - [test1]
+  stage2:
+    jobs:
+    - [test2, test3]
+    - [test4]stages:
+  stage1:
+    jobs:
+    - [test1]
+  stage2:
+    jobs:
+    - [test2, test3]
+    - [test4]stages:
+  stage1:
     jobs:
     - [test1]
   stage2:
